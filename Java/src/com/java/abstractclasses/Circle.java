@@ -17,6 +17,7 @@ class Circle extends Shape{
 		System.out.println("Circle has been drawn");
 	}
 	
+	//Calculating the area of circle
 	public double area(){
 		return (double)(pi*radiu*radiu);
 	}
