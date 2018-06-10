@@ -8,5 +8,6 @@ public interface MyInterface {
 	//Connect Method
 	void connect();
 	
+	//Disconnect method
 	void disconnect();
 }
