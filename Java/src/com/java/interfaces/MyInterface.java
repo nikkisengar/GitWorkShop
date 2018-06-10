@@ -4,7 +4,10 @@ package com.java.interfaces;
 public interface MyInterface {
 	
 	//methods in interface are by default "public abstract"
+	
+	//Connect Method
 	void connect();
 	
+	//disconnect method
 	void disconnect();
 }
