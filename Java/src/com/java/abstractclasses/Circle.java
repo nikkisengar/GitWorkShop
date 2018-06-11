@@ -4,12 +4,12 @@ class Circle extends Shape{
 	
 	//Declaring the variables
 	double pi=3.14;
-	int radiu;
+	int radius;
 	
 	//Constructor
 	public Circle(int radius, String name) {
 		super(name);
-		this.radiu=radius;
+		this.radius=radius;
 	}
 	
 	//Implementing the abstract methods
@@ -19,7 +19,8 @@ class Circle extends Shape{
 	
 	//Calculating the area of circle
 	public double area(){
-		return (double)(pi*radiu*radiu);
+		return (double)(pi*radius*radius);
 	}
 
+	
 }
