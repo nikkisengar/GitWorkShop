@@ -15,6 +15,11 @@ public class ShapeTest {
 		Shape sCir=new Circle(2,"Circle");
 		System.out.println("Area of Circle is: "+sCir.area());
 		sCir.moveTo(2, 4);
+		
+		//Creating the object of circle class using shape class reference
+		Shape sSqr=new Square(4,"Square");
+		System.out.println("Area of Square is: "+sSqr.area());
+		sCir.moveTo(3, 4);
 
 
 	}
