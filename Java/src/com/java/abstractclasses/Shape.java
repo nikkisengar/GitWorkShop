@@ -21,4 +21,5 @@ abstract class Shape {
 	//Declaring the abstract method which will be implemented by its sub class or classes.
 	abstract public double area();
 	abstract public void draw();
+	
 }
