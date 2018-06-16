@@ -1,6 +1,6 @@
 package com.java.abstractclasses;
 
-//Main class to chosse the Shape
+//Main class to choose the Shape
 public class ShapeTest {
 
 	public static void main(String[] args) {
