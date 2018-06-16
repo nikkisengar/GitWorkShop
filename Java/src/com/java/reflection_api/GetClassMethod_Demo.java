@@ -24,7 +24,7 @@ public class GetClassMethod_Demo {
 		//Creating the object of GetClassMethod_Demo
 		GetClassMethod_Demo get=new GetClassMethod_Demo();
 		
-		//Invoking the method
+		//Invoking the method to print the class name
 		get.printClass(t);
 		
 		
