@@ -1,6 +1,7 @@
 package com.java.reflection_api;
 
 import java.lang.reflect.Constructor;
+import java.lang.reflect.Method;
 
 //Class whose object is to be created
 class TestTest{
@@ -46,7 +47,12 @@ public class AllMethods_Demo {
 		System.out.println("=====================================================================================");
 		System.out.println("The public methods of the class are:");
 		
+		//getting methods of the class through object of the class
+		Method[] m=c.getMethods();
 		
+		//Printing the methods name
+		for(Method m1:m)
+			System.out.println(m1.getName());	
 		
 		
 		
